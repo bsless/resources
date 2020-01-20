@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Reading</title>
+<!-- 2019-09-08 Sun 17:30 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="Org-mode">
+<meta name="author" content="Ben Sless">
+
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style type="text/css">
+/* org mode styles on top of twbs */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 18px;
+    margin-bottom: 105px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 101px;
+    background-color: #f5f5f5;
+}
+
+footer > div {
+    padding: 10px;
+}
+
+footer p {
+    margin: 0 0 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#table-of-contents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+blockquote p {
+    font-size: 18px;
+}
+
+pre {
+    font-size: 16px;
+}
+
+.footpara {
+    display: inline-block;
+}
+
+figcaption {
+  font-size: 16px;
+  color: #666;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+/* from twbs docs */
+
+.bs-docs-sidebar.affix {
+    position: static;
+}
+@media (min-width: 768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px;
+    }
+}
+
+/* All levels of nav */
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #999;
+}
+.bs-docs-sidebar .nav > li > a:hover,
+.bs-docs-sidebar .nav > li > a:focus {
+    padding-left: 19px;
+    color: #A1283B;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #A1283B;
+}
+.bs-docs-sidebar .nav > .active > a,
+.bs-docs-sidebar .nav > .active:hover > a,
+.bs-docs-sidebar .nav > .active:focus > a {
+    padding-left: 18px;
+    font-weight: bold;
+    color: #A1283B;
+    background-color: transparent;
+    border-left: 2px solid #A1283B;
+}
+
+/* Nav: second level (shown on .active) */
+.bs-docs-sidebar .nav .nav {
+    display: none; /* Hide by default, but at >768px, show it */
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav > li > a:focus {
+    padding-left: 29px;
+}
+.bs-docs-sidebar .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav > .active:focus > a {
+    padding-left: 28px;
+    font-weight: 500;
+}
+
+/* Nav: third level (shown on .active) */
+.bs-docs-sidebar .nav .nav .nav {
+    padding-bottom: 10px;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.bs-docs-sidebar .nav .nav .nav > li > a:hover,
+.bs-docs-sidebar .nav .nav .nav > li > a:focus {
+    padding-left: 39px;
+}
+.bs-docs-sidebar .nav .nav .nav > .active > a,
+.bs-docs-sidebar .nav .nav .nav > .active:hover > a,
+.bs-docs-sidebar .nav .nav .nav > .active:focus > a {
+    padding-left: 38px;
+    font-weight: 500;
+}
+
+/* Show and affix the side nav when space allows it */
+@media (min-width: 992px) {
+    .bs-docs-sidebar .nav > .active > ul {
+        display: block;
+    }
+    /* Widen the fixed sidebar */
+    .bs-docs-sidebar.affix,
+    .bs-docs-sidebar.affix-bottom {
+        width: 213px;
+    }
+    .bs-docs-sidebar.affix {
+        position: fixed; /* Undo the static from mobile first approach */
+        top: 20px;
+    }
+    .bs-docs-sidebar.affix-bottom {
+        position: absolute; /* Undo the static from mobile first approach */
+    }
+    .bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+}
+@media (min-width: 1200px) {
+    /* Widen the fixed sidebar again */
+    .bs-docs-sidebar.affix-bottom,
+    .bs-docs-sidebar.affix {
+        width: 263px;
+    }
+}
+</style>
+<script type="text/javascript">
+$(function() {
+    'use strict';
+
+    $('.bs-docs-sidebar li').first().addClass('active');
+
+    $(document.body).scrollspy({target: '.bs-docs-sidebar'});
+
+    $('.bs-docs-sidebar').affix();
+});
+</script>
+</head>
+<body>
+<div id="content" class="container">
+<div class="row"><div class="col-md-9"><h1 class="title">Reading</h1>
+
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> Introductions</h2>
+<div class="outline-text-2" id="text-1">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=P76Vbsk_3J0">Clojure for Java Programmers Part 1 - Rich Hickey</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=wASCH_gPnDw">Expert to Expert: Rich Hickey and Brian Beckman - Inside Clojure</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2"><span class="section-number-2">2</span> Clojure</h2>
+<div class="outline-text-2" id="text-2">
+<ul class="org-ul">
+<li><a href="https://github.com/bbatsov/clojure-style-guide">Clojure Style Guide</a>
+</li>
+<li><a href="https://www.infoq.com/presentations/Simple-Made-Easy/">Simple Made Easy</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=-6BsiVyC1kM">The Value of Values with Rich Hickey</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=VSdnJDO-xdg">Clojure Made Simple</a>
+</li>
+</ul>
+</div>
+
+<div id="outline-container-sec-2-1" class="outline-3">
+<h3 id="sec-2-1"><span class="section-number-3">2.1</span> Books</h3>
+<div class="outline-text-3" id="text-2-1">
+<ul class="org-ul">
+<li><a href="https://www.braveclojure.com/">Clojure For The Brave And True</a>
+</li>
+<li><a href="https://leanpub.com/elementsofclojure">Elements Of Clojure - Zach Tellman</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3"><span class="section-number-2">3</span> System Design</h2>
+<div class="outline-text-2" id="text-3">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=ROor6_NGIWU">The Language of the System - Rich Hickey</a>
+</li>
+</ul>
+</div>
+
+<div id="outline-container-sec-3-1" class="outline-3">
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> Component</h3>
+<div class="outline-text-3" id="text-3-1">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=13cmHf_kt-Q">Stuart Sierra - Components Just Enough Structure</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=av9Xi6CNqq4">Anthony Marcar - Clojure At Scale @WalmartLabs</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-4" class="outline-2">
+<h2 id="sec-4"><span class="section-number-2">4</span> Concurrency</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=dGVqrGmwOAw">Clojure Concurrency - Rich Hickey</a>
+</li>
+<li><a href="https://www.infoq.com/presentations/clojure-core-async/">Clojure core.async</a>
+</li>
+<li><a href="https://purelyfunctional.tv/guide/clojure-concurrency/">Clojure Concurrency - Purely Functional</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-5" class="outline-2">
+<h2 id="sec-5"><span class="section-number-2">5</span> Types, Schema and Spec</h2>
+<div class="outline-text-2" id="text-5">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=YR5WdGrpoug">Maybe Not - Rich Hickey</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-6" class="outline-2">
+<h2 id="sec-6"><span class="section-number-2">6</span> Functional Programming</h2>
+<div class="outline-text-2" id="text-6">
+<ul class="org-ul">
+<li><a href="http://mishadoff.com/blog/clojure-design-patterns/">Clojure Design Patterns</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=srQt1NAHYC0">Functional Design Patterns - Scott Wlaschin</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=Nrp_LZ-XGsY">The Functional Programmer's Toolkit - Scott Wlaschin</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-7" class="outline-2">
+<h2 id="sec-7"><span class="section-number-2">7</span> Lisp</h2>
+<div class="outline-text-2" id="text-7">
+<ul class="org-ul">
+<li><a href="http://www.paulgraham.com/avg.html">Beating The Averages - Paul Graham</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-8" class="outline-2">
+<h2 id="sec-8"><span class="section-number-2">8</span> Testing</h2>
+<div class="outline-text-2" id="text-8">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=tWn8RA_DEic">Structure and Interpretation of Test Cases - Kevlin Henney</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-9" class="outline-2">
+<h2 id="sec-9"><span class="section-number-2">9</span> Practices</h2>
+<div class="outline-text-2" id="text-9">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?v=ZsHMHukIlJY">ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-10" class="outline-2">
+<h2 id="sec-10"><span class="section-number-2">10</span> Philosophy</h2>
+<div class="outline-text-2" id="text-10">
+<ul class="org-ul">
+<li><a href="https://www.infoq.com/presentations/Simple-Made-Easy/">Simple Made Easy - Rich Hickey</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=-6BsiVyC1kM">The Value of Values with Rich Hickey</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=YR5WdGrpoug">Maybe Not - Rich Hickey</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=2V1FtfBDsLU">Effective Programs - 10 Years of Clojure - Rich Hickey</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=B3b4tremI5o">GOTO 2016 • Small Is Beautiful • Kevlin Henney</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=AbgsfeGvg3E">GOTO 2018 • Old Is the New New • Kevlin Henney</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=5cafjDPPtJ0">Software Art Thou: Kevlin Henney - What Do You Mean</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=xjf3eW5lftw">Agility != Speed - Kevlin Henney</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=0fpDlAEQio4">Four Languages from Forty Years Ago - Scott Wlaschin</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=OyfBQmvr2Hc">William Byrd on "The Most Beautiful Program Ever Written"</a>
+</li>
+<li><a href="https://www.youtube.com/watch?v=SrKj4hYic5A">Programming Should Eat Itself - Nada Amin</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-11" class="outline-2">
+<h2 id="sec-11"><span class="section-number-2">11</span> Structure And Interpretation Of Computer Programs</h2>
+<div class="outline-text-2" id="text-11">
+</div><div id="outline-container-sec-11-1" class="outline-3">
+<h3 id="sec-11-1"><span class="section-number-3">11.1</span> MIT Video Lectures</h3>
+<div class="outline-text-3" id="text-11-1">
+<ul class="org-ul">
+<li><a href="https://www.youtube.com/watch?list=PLE18841CABEA24090&amp;v=-J_xL4IGhJA">Lecture 1A: Overview and Introduction to Lisp</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-11-2" class="outline-3">
+<h3 id="sec-11-2"><span class="section-number-3">11.2</span> Course Website</h3>
+<div class="outline-text-3" id="text-11-2">
+<ul class="org-ul">
+<li><a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/">Structure and Interpretation of Computer Programs</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-sec-11-3" class="outline-3">
+<h3 id="sec-11-3"><span class="section-number-3">11.3</span> Book Remasters</h3>
+<div class="outline-text-3" id="text-11-3">
+<ul class="org-ul">
+<li><a href="https://github.com/sarabander/sicp-pdf/raw/master/sicp.pdf">pdf version</a>
+</li>
+<li><a href="https://github.com/sarabander/sicp-epub/blob/master/sicp.epub?raw=true">epub version</a>
+</li>
+<li><a href="https://sarabander.github.io/sicp/">html version</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-sec-12" class="outline-2">
+<h2 id="sec-12"><span class="section-number-2">12</span> Academic Work</h2>
+<div class="outline-text-2" id="text-12">
+</div><div id="outline-container-sec-12-1" class="outline-3">
+<h3 id="sec-12-1"><span class="section-number-3">12.1</span> Armstrong Thesis (2003)</h3>
+<div class="outline-text-3" id="text-12-1">
+<p>
+<a href="http://erlang.org/download/armstrong_thesis_2003.pdf">Armstrong Thesis</a>
+</p>
+
+<p>
+Making reliable distributed systems in the presence of sodware errors
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-12-2" class="outline-3">
+<h3 id="sec-12-2"><span class="section-number-3">12.2</span> CSP Hoare 1978</h3>
+<div class="outline-text-3" id="text-12-2">
+<p>
+<a href="https://spinroot.com/courses/summer/Papers/hoare_1978.pdf">Communicating Sequential Processes</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-12-3" class="outline-3">
+<h3 id="sec-12-3"><span class="section-number-3">12.3</span> Recursive Functions Of Symbolic Expressions (McCarthy 1960)</h3>
+<div class="outline-text-3" id="text-12-3">
+<p>
+<a href="http://www-formal.stanford.edu/jmc/recursive.pdf">Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I</a>
+</p>
+</div>
+</div>
+</div>
+</div><div class="col-md-3"><nav id="table-of-contents">
+<div id="text-table-of-contents" class="bs-docs-sidebar">
+<ul class="nav">
+<li><a href="#sec-1">1. Introductions</a></li>
+<li><a href="#sec-2">2. Clojure</a>
+<ul class="nav">
+<li><a href="#sec-2-1">2.1. Books</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. System Design</a>
+<ul class="nav">
+<li><a href="#sec-3-1">3.1. Component</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Concurrency</a></li>
+<li><a href="#sec-5">5. Types, Schema and Spec</a></li>
+<li><a href="#sec-6">6. Functional Programming</a></li>
+<li><a href="#sec-7">7. Lisp</a></li>
+<li><a href="#sec-8">8. Testing</a></li>
+<li><a href="#sec-9">9. Practices</a></li>
+<li><a href="#sec-10">10. Philosophy</a></li>
+<li><a href="#sec-11">11. Structure And Interpretation Of Computer Programs</a>
+<ul class="nav">
+<li><a href="#sec-11-1">11.1. MIT Video Lectures</a></li>
+<li><a href="#sec-11-2">11.2. Course Website</a></li>
+<li><a href="#sec-11-3">11.3. Book Remasters</a></li>
+</ul>
+</li>
+<li><a href="#sec-12">12. Academic Work</a>
+<ul class="nav">
+<li><a href="#sec-12-1">12.1. Armstrong Thesis (2003)</a></li>
+<li><a href="#sec-12-2">12.2. CSP Hoare 1978</a></li>
+<li><a href="#sec-12-3">12.3. Recursive Functions Of Symbolic Expressions (McCarthy 1960)</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+</div></div></div>
+<footer id="postamble" class="">
+<div><p class="author">Author: Ben Sless</p>
+<p class="date">Created: 2019-09-08 Sun 17:30</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 27.0.50 (<a href="http://orgmode.org">Org-mode</a> 9.2.6)</p>
+</div>
+</footer>
+</body>
+</html>

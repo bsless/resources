@@ -1,0 +1,107 @@
+#+TITLE: Reading
+
+* Introductions
+
+  - [[https://www.youtube.com/watch?v=P76Vbsk_3J0][Clojure for Java Programmers Part 1 - Rich Hickey]]
+  - [[https://www.youtube.com/watch?v=wASCH_gPnDw][Expert to Expert: Rich Hickey and Brian Beckman - Inside Clojure]]
+
+* Clojure
+
+  - [[https://github.com/bbatsov/clojure-style-guide][Clojure Style Guide]]
+  - [[https://www.infoq.com/presentations/Simple-Made-Easy/][Simple Made Easy]]
+  - [[https://www.youtube.com/watch?v=-6BsiVyC1kM][The Value of Values with Rich Hickey]]
+  - [[https://www.youtube.com/watch?v=VSdnJDO-xdg][Clojure Made Simple]]
+
+** Books
+
+   - [[https://www.braveclojure.com/][Clojure For The Brave And True]]
+   - [[https://leanpub.com/elementsofclojure][Elements Of Clojure - Zach Tellman]]
+
+* System Design
+
+  - [[http://curtclifton.net/papers/MoseleyMarks06a.pdf][Out Of The Tarpit]]
+  - [[https:www.infoq.com/presentations/design-composition-performance-keynote/][Design, Composition, and Performance]]
+  - [[https://www.youtube.com/watch?v=ROor6_NGIWU][The Language of the System - Rich Hickey]]
+
+** Component
+
+   - [[https://www.youtube.com/watch?v=13cmHf_kt-Q][Stuart Sierra - Components Just Enough Structure]]
+   - [[https://www.youtube.com/watch?v=av9Xi6CNqq4][Anthony Marcar - Clojure At Scale @WalmartLabs]]
+
+* Concurrency
+
+  - [[https://www.youtube.com/watch?v=dGVqrGmwOAw][Clojure Concurrency - Rich Hickey]]
+  - [[https://www.infoq.com/presentations/clojure-core-async/][Clojure core.async]]
+  - [[https://purelyfunctional.tv/guide/clojure-concurrency/][Clojure Concurrency - Purely Functional]]
+
+* Types, Schema and Spec
+
+  - [[https://www.youtube.com/watch?v=YR5WdGrpoug][Maybe Not - Rich Hickey]]
+
+* Functional Programming
+
+  - [[http://mishadoff.com/blog/clojure-design-patterns/][Clojure Design Patterns]]
+  - [[https://www.youtube.com/watch?v=srQt1NAHYC0][Functional Design Patterns - Scott Wlaschin]]
+  - [[https://www.youtube.com/watch?v=Nrp_LZ-XGsY][The Functional Programmer's Toolkit - Scott Wlaschin]]
+
+* Lisp
+
+  - [[http://www.paulgraham.com/avg.html][Beating The Averages - Paul Graham]]
+  - [[https:all-things-andy-gavin.com/2011/03/12/making-crash-bandicoot-gool-part-9/][Making Crash Bandicoot – GOOL]]
+  - [[http:www.flownet.com/gat/jpl-lisp.html][Lisping at JPL]]
+  - [[https://web.mit.edu/6.033/www/papers/Worse_is_Better.pdf][The Rise Of Worse Is Better]]
+
+* Testing
+
+  - [[https://www.youtube.com/watch?v=tWn8RA_DEic][Structure and Interpretation of Test Cases - Kevlin Henney]]
+
+* Practices
+
+  - [[https://www.youtube.com/watch?v=ZsHMHukIlJY][ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers]]
+
+* Philosophy
+
+  - [[https://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey/][Are We There Yet - Rich Hickey]]
+  - [[https://www.infoq.com/presentations/Simple-Made-Easy/][Simple Made Easy - Rich Hickey]]
+  - [[https://www.youtube.com/watch?v=-6BsiVyC1kM][The Value of Values with Rich Hickey]]
+  - [[https://www.youtube.com/watch?v=YR5WdGrpoug][Maybe Not - Rich Hickey]]
+  - [[https://www.youtube.com/watch?v=2V1FtfBDsLU][Effective Programs - 10 Years of Clojure - Rich Hickey]]
+  - [[https://www.youtube.com/watch?v=B3b4tremI5o][GOTO 2016 • Small Is Beautiful • Kevlin Henney]]
+  - [[https://www.youtube.com/watch?v=AbgsfeGvg3E][GOTO 2018 • Old Is the New New • Kevlin Henney]]
+  - [[https://www.youtube.com/watch?v=5cafjDPPtJ0][Software Art Thou: Kevlin Henney - What Do You Mean]]
+  - [[https://www.youtube.com/watch?v=xjf3eW5lftw][Agility != Speed - Kevlin Henney]]
+  - [[https://www.youtube.com/watch?v=0fpDlAEQio4][Four Languages from Forty Years Ago - Scott Wlaschin]]
+  - [[https://www.youtube.com/watch?v=OyfBQmvr2Hc][William Byrd on "The Most Beautiful Program Ever Written"]]
+  - [[https://www.youtube.com/watch?v=SrKj4hYic5A][Programming Should Eat Itself - Nada Amin]]
+
+* Structure And Interpretation Of Computer Programs
+
+** MIT Video Lectures
+
+   - [[https://www.youtube.com/watch?list=PLE18841CABEA24090&v=-J_xL4IGhJA][Lecture 1A: Overview and Introduction to Lisp]]
+
+** Course Website
+
+   - [[https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/][Structure and Interpretation of Computer Programs]]
+
+** Book Remasters
+
+   - [[https://github.com/sarabander/sicp-pdf/raw/master/sicp.pdf][pdf version]]
+   - [[https://github.com/sarabander/sicp-epub/blob/master/sicp.epub?raw=true][epub version]]
+   - [[https://sarabander.github.io/sicp/][html version]]
+
+* Academic Work
+
+** Armstrong Thesis (2003)
+
+   [[http://erlang.org/download/armstrong_thesis_2003.pdf][Armstrong Thesis]]
+   
+   Making reliable distributed systems in the presence of sodware errors
+
+** CSP Hoare 1978
+
+   [[https://spinroot.com/courses/summer/Papers/hoare_1978.pdf][Communicating Sequential Processes]]
+
+** Recursive Functions Of Symbolic Expressions (McCarthy 1960)
+   
+   [[http://www-formal.stanford.edu/jmc/recursive.pdf][Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I]]
