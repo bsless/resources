@@ -53,6 +53,15 @@
   - [[https://www.youtube.com/watch?v=srQt1NAHYC0][Functional Design Patterns - Scott Wlaschin]]
   - [[https://www.youtube.com/watch?v=Nrp_LZ-XGsY][The Functional Programmer's Toolkit - Scott Wlaschin]]
 
+* Databases
+
+** Datomic
+
+  - [[https://www.infoq.com/interviews/hickey-datomic/][Rich Hickey on Datomic: Datalog, Databases, Persistent Data Structures]]
+  - [[https://www.youtube.com/watch?v=Cym4TZwTCNU][Rich Hickey: Deconstructing the Database]]
+  - [[https://www.youtube.com/watch?v=EKdV1IgAaFc][GOTO 2012 • Database as a Value • Rich Hickey]]
+  - [[https://www.infoq.com/presentations/Impedance-Mismatch/][The Impedance Mismatch is Our Fault]]
+
 * Lisp
 
   - [[http://www.paulgraham.com/avg.html][Beating The Averages - Paul Graham]]
