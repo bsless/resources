@@ -113,7 +113,7 @@
 ** Armstrong Thesis (2003)
 
    [[http://erlang.org/download/armstrong_thesis_2003.pdf][Armstrong Thesis]]
-   
+
    Making reliable distributed systems in the presence of sodware errors
 
 ** CSP Hoare 1978
@@ -121,7 +121,7 @@
    [[https://spinroot.com/courses/summer/Papers/hoare_1978.pdf][Communicating Sequential Processes]]
 
 ** Recursive Functions Of Symbolic Expressions (McCarthy 1960)
-   
+
    [[http://www-formal.stanford.edu/jmc/recursive.pdf][Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I]]
 
 * Humor
