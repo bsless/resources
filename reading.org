@@ -28,6 +28,15 @@
    - [[https://www.youtube.com/watch?v=13cmHf_kt-Q][Stuart Sierra - Components Just Enough Structure]]
    - [[https://www.youtube.com/watch?v=av9Xi6CNqq4][Anthony Marcar - Clojure At Scale @WalmartLabs]]
 
+** Functional Architecture
+
+   - [[https://increment.com/software-architecture/primer-on-functional-architecture/][A primer on functional architecture]]
+
+** Event Drivern Architecture
+
+   - [[https://www.enterpriseintegrationpatterns.com/docs/EDA.pdf][Programming Without a Call Stack – Event-driven Architectures]]
+   - [[https://martinfowler.com/articles/201701-event-driven.html][What do you mean by "Event-Driven"?]]
+
 * Concurrency
 
   - [[https://www.youtube.com/watch?v=dGVqrGmwOAw][Clojure Concurrency - Rich Hickey]]
