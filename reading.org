@@ -17,6 +17,11 @@
    - [[https://www.braveclojure.com/][Clojure For The Brave And True]]
    - [[https://leanpub.com/elementsofclojure][Elements Of Clojure - Zach Tellman]]
 
+** Transducers
+   
+   - Transducers From The Ground Up: [[https://web.archive.org/web/20181204134224/https://labs.uswitch.com/transducers-from-the-ground-up-the-essence/][Part 1]] [[https://web.archive.org/web/20200221114730/https://labs.uswitch.com/transducers-from-the-ground-up-the-practice/][Part 2]] (excellent introduction, archived)
+
+
 * System Design
 
   - [[http://curtclifton.net/papers/MoseleyMarks06a.pdf][Out Of The Tarpit]]
