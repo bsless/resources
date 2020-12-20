@@ -47,6 +47,7 @@
   - [[https://www.youtube.com/watch?v=dGVqrGmwOAw][Clojure Concurrency - Rich Hickey]]
   - [[https://www.infoq.com/presentations/clojure-core-async/][Clojure core.async]]
   - [[https://purelyfunctional.tv/guide/clojure-concurrency/][Clojure Concurrency - Purely Functional]]
+  - [[https://blog.golang.org/waza-talk][Concurrency Is Not Parallelism]]
 
 * Types, Schema and Spec
 
