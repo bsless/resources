@@ -98,6 +98,10 @@
   - [[https://www.youtube.com/watch?v=0fpDlAEQio4][Four Languages from Forty Years Ago - Scott Wlaschin]]
   - [[https://www.youtube.com/watch?v=OyfBQmvr2Hc][William Byrd on "The Most Beautiful Program Ever Written"]]
   - [[https://www.youtube.com/watch?v=SrKj4hYic5A][Programming Should Eat Itself - Nada Amin]]
+  - [[https://www.youtube.com/watch?v=HB5TrK7A4pI]["We Really Don't Know How to Compute!" - Gerald Sussman (2011)]]
+  - [[https://www.youtube.com/watch?v=IOiZatlZtGU]["Propositions as Types" by Philip Wadler]]
+  - [[https://www.youtube.com/watch?v=lKXe3HUG2l4]["The Mess We're In" by Joe Armstrong]]
+  - [[https://www.youtube.com/watch?v=cNICGEwmXLU]["Systems that run forever self-heal and scale" by Joe Armstrong (2013)]]
 
 * Structure And Interpretation Of Computer Programs
 
