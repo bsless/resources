@@ -127,13 +127,27 @@
 
    Making reliable distributed systems in the presence of sodware errors
 
-** CSP Hoare 1978
+** CSP
 
-   [[https://spinroot.com/courses/summer/Papers/hoare_1978.pdf][Communicating Sequential Processes]]
+   [[https://spinroot.com/courses/summer/Papers/hoare_1978.pdf][Communicating Sequential Processes]] - Hoare 1978
+
+   [[http://www.usingcsp.com/cspbook.pdf][Communicating Sequential Processes book]] - Hoare 2015
 
 ** Recursive Functions Of Symbolic Expressions (McCarthy 1960)
 
    [[http://www-formal.stanford.edu/jmc/recursive.pdf][Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I]]
+
+** Streams
+
+    [[https://arxiv.org/pdf/1612.06668.pdf][Stream Fusion, to Completeness]]
+
+    [[https://okmij.org/ftp/Computation/LogicT.pdf][Backtracking, Interleaving, and Terminating Monad Transformers]]
+
+** Kanren
+
+    [[http://webyrd.net/scheme-2013/papers/HemannMuKanren2013.pdf][µKanren: A Minimal Functional Core for Relational Programming]]
+
+    [[https://scholarworks.iu.edu/dspace/bitstream/handle/2022/8777/Byrd_indiana_0093A_10344.pdf][Relational Programming in miniKanren: Techniques, Applications, and Implementations]]
 
 * Humor
 
